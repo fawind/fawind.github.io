@@ -1,0 +1,53 @@
+body {
+  background: gray;
+  background-image: url(res/background.png);
+  background-repeat: repeat;
+}
+
+#container {
+    overflow: auto;
+    background-color:rgba(255,255,255,0.6);
+    position: relative;
+    width: 30%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+    border: 1.5rem solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 10px;
+}
+
+pic {
+    float: left;
+    width: 25%;
+}
+
+section {
+    margin-left: 25%;
+}
+
+#profile {
+  width: 100%;
+}
+
+#heading {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 210%;
+}
+
+#text {
+    font-family: "Muli";
+    color: #707070;
+    font-size: 120%;
+}
+
+#icon {
+  vertical-align: middle;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 1.5rem;
+}
