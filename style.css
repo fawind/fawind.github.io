@@ -1,5 +1,6 @@
 body {
   background: white;
+  /* Background pattern from subtlepatterns.com */
   background-image: url(res/background.png);
   background-repeat: repeat;
 }
