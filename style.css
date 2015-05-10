@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 35%;
     min-width: 500px;
-    
+
     margin: 0 auto;
     margin-top: 10%;
 
@@ -43,6 +43,7 @@ body {
 
 #profile {
   width: 100%;
+  border-radius: 100em;
   max-width: 8rem;
 }
 
