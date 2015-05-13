@@ -5,6 +5,11 @@ body {
   background-repeat: repeat;
 }
 
+@font-face {
+    font-family: Muli;
+    src: url(Muli-Regular.ttf);
+}
+
 #container {
     position: relative;
     width: 35%;
