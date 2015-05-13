@@ -1,5 +1,4 @@
 body {
-  background: white;
   /* Background pattern from subtlepatterns.com */
   background-image: url(res/background.png);
   background-repeat: repeat;
@@ -10,7 +9,7 @@ body {
     src: url(Muli-Regular.ttf);
 }
 
-#container {
+.container {
     position: relative;
     width: 35%;
     min-width: 500px;
@@ -46,20 +45,20 @@ body {
   }
 }
 
-#profile {
+.profile {
   width: 100%;
   border-radius: 100em;
   max-width: 8rem;
 }
 
-#heading {
+.heading {
     font-family: "Muli";
     color: black;
     font-weight: bold;
     font-size: 2.2rem;
 }
 
-#text {
+.content {
     font-family: "Muli";
     color: #707070;
     font-size: 1.2rem;
@@ -71,4 +70,8 @@ img.icon {
   padding-left: 5%;
   padding-right: 5%;
   width: 1.5rem;
+}
+
+img.icon:hover {
+  opacity: 0.4;
 }
