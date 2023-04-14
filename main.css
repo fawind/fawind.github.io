@@ -56,6 +56,18 @@ h3 {
   color: #757575;
 }
 
+.name, .pronouns {
+  vertical-align: middle;
+}
+
+.name {
+  display: inline;
+}
+
+.pronouns {
+  color: #00000099
+}
+
 img.icon {
   padding-left: 2%;
   padding-right: 2%;
